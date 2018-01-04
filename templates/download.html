@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:Semi-Bold" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>
+        .btny {
+            border: none;
+            border-radius: 28px;
+            font-family: 'Montserrat', sans-serif;
+            color: #ffffff;
+            font-size: 13px;
+            background: #1F62E7;
+            padding: 13px 35px 13px 35px;
+            text-decoration: none;
+            display: inline-block;
+            letter-spacing: 0.5px;
+            font-weight: 400;
+            cursor: pointer;
+        }
+
+        .text-line {
+            background-color: transparent;
+            color: #464646;
+            outline: none;
+            outline-style: none;
+            outline-offset: 0;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: solid #F95E57 1px;
+            padding: 5px 10px;
+            width: 30%;
+            text-align: center;
+        }
+
+        .navheader {
+            padding-top: 16px;
+            padding-bottom: 16px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            letter-spacing: 2px;
+            background-color: #1F62E7;
+            color: #FFFFFF;
+            padding-left: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+
+        .upload {
+            width: 30%;
+        }
+
+        .main {
+            padding-top: 60px;
+        }
+
+        .monfont {
+          font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+<div class="navheader">FILEBOX</div>
+<div class="container text-center" style="width:30%;margin-top:200px;">
+    <div class="form-group">
+      <div class="monfont">
+
+      <a href="{{ downloadlink }}">{{ downloadlink }}</a>
+    </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>
